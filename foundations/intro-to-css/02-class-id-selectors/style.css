@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+.odd-rows {
+  background-color: rgb(255, 100, 100);
+  font-family: Verdana,sans-serif;
+}
+#oneid {
+  color: #0000ff;
+  font-size: 36px;
+}
+.third-row {
+  font-size: 24px;
+}
+#anotherid {
+  background-color: hsl(120,50%,80%);
+  font-size: 24px;
+  font-weight: 700;
+}
