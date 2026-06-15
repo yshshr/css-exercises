@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 6px 12px;
 }
 
 input {
@@ -47,7 +48,7 @@ a {
 }
 
 .footer {
-  background-color: #eee;
+  background-color: #eeeeee;
 }
 
 .content {
