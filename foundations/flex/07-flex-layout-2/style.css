@@ -38,9 +38,8 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1  32%;
-  box-sizing: border-box;
   padding: 12px;
+  width: 300px;
 }
 
 .content {
@@ -52,41 +51,21 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2%;
+  gap: 15px;
   padding: 30px;
-}
-
-@media (max-width: 1100px) {
-  .card {
-    flex: 1 48%;
-  }
-  .container {
-    gap: 4%;
-  }
-} 
-
-@media (min-width: 1600px) {
-  .card {
-    flex: 1 24%;
-  }
-  .container {
-    gap: 1%;
-  }
-  .card:first-child,
-  .card:nth-child(2) {
-    flex: 1 48%;
-  }
 }
